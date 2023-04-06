@@ -198,14 +198,14 @@ footer ul li a{
     padding-bottom: 32px;
     background: #EDF7FA;
 }
-.work{
-    max-width: 100%;
-}
+
 .work .container{
     max-width: 876px;
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
+    align-items: center;
+    text-decoration: none;
 }
 
 .work .container h3{
@@ -228,12 +228,10 @@ footer ul li a{
     color: #00A8CC;
 }
 .recent_posts .description{
-    max-width: 100%;
+    max-width: 876px;
     display: flex;
-    justify-content:center;
-}
-.recent_posts article{
-    margin-right: 20px;
+    justify-content:space-between;
+    margin: auto;
 }
 
 .recent_posts .pattern::before{
